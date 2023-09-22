@@ -28,9 +28,16 @@ struct Hexadecimal: View {
                         .stroke(Color.blue, lineWidth: 1)
                 )
                 .padding()
-            
 
-            Text(number)
+            let remainder = 5
+            var quotiants = [Int]()
+            while remainder > 0 {
+            let decimalinOut = 0
+            let remainder = decimalin / 16
+            quotiants.append(remainder)
+            }
+            
+            Text(decimalin)
                 .padding()
                 .font(.largeTitle)
         }
